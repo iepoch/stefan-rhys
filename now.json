@@ -1,5 +1,18 @@
 {
   "version": 2,
-  "alias": "stefan-rhys.me",
-  "name": "Stefan Clem - Full Stack Web Developer"
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@now/static"
+    }
+  ],
+  "name": "stefan-rhys.me"
 }
