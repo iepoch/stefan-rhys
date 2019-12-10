@@ -1,17 +1,18 @@
 {
   "version": 2,
+  "public": true,
   "builds": [
     {
       "src": "*.js",
-      "use": "@now/node"
+      "use": "@now/static-build"
     },
     {
       "src": "*.html",
-      "use": "@now/static"
+      "use": "@now/static-build"
     },
     {
       "src": "*.css",
-      "use": "@now/static"
+      "use": "@now/static-build"
     }
   ],
   "name": "stefan-rhys.me"
