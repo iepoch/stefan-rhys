@@ -4,7 +4,7 @@
   "builds": [
     {
       "src": "*.js",
-      "use": "@now/static-build"
+      "use": "@now/node"
     },
     {
       "src": "*.html",
