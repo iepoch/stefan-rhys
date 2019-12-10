@@ -1,5 +1,18 @@
 {
   "version": 2,
-  "routes": [{ "src": "/(.*)", "dest": "index.js" }],
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.css",
+      "use": "@now/static"
+    }
+  ],
   "name": "stefan-rhys.me"
 }
